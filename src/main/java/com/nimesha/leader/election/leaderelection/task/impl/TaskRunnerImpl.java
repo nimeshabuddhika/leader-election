@@ -12,9 +12,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class TaskRunnerImpl implements TaskRunner {
-
     private static final Logger logger = LoggerFactory.getLogger(TaskRunnerImpl.class);
-
 
     private final Environment environment;
 
